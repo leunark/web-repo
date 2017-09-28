@@ -58,7 +58,7 @@ if(isset($_POST['register'])) {
     if($stmt->rowCount()<=0) {
         $response->JSONError('No lines were affected!');
     }
-    $response->JSONSucces('You have successfully registered!');
+    $response->JSONSuccess('You have successfully registered!');
 } else {
     $response->JSONError('Parameter login is not set!');
 }
