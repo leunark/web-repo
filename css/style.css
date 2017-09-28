@@ -1,0 +1,106 @@
+html {
+	font-family: 'Abel', sans-serif;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background: #FFFFFF;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* logo on the navbar */
+.brand-logo{
+	font-weight: 900;
+}
+
+/* own custom box e.g. login/register box */
+.custom-box {
+	display: inline-block; 
+	padding: 32px 48px 0px 48px; 
+	border: 1px solid #EEE;
+	/* grey lighten-4*/
+	background-color: #f5f5f5 !important;
+	/* z-depth-1 */
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* combination of relative and absolute - the classic way "suckerfish dropdown" */
+.dropdown-suckerfish {
+	position: relative;
+}
+.dropdown-suckerfish>div {
+  position: absolute;
+
+	min-width: 500px;
+  max-height: auto;
+
+  display: none;
+ 	overflow: hidden;
+}
+.dropdown-suckerfish>div>div.collection {
+  margin: 0;
+}
+
+/* profile dropdown on navbar */
+#dropdownProfile {
+	min-width: 350px;
+	margin-top: 2px; /* if margin-top is 0, there is an ugly line between navbar and item */
+
+	height: auto;
+	overflow: hidden;
+	display: none;
+}
+
+/* dropdown elements in the dropdown box */
+.profile-avatar {
+	padding: 0px;
+	min-width: 80px;
+	min-height: 80px;
+	cursor: pointer;
+}
+.profile-title {
+	color: #757575;
+	font-weight: 700;
+	cursor: pointer;
+	padding-left: 40px;
+}
+.profile-status {
+	color: #757575;
+	cursor: pointer;
+	padding-left: 40px;
+}
+.profile-subtitle {
+	color: #757575;
+	cursor: pointer;
+	padding-left: 40px;
+}
+.profile-avatar:hover, .profile-title:hover, .profile-subtitle:hover { 
+    color: #3949ab;
+    background-color: #FFFFFF;
+}
+/* overwrite collections */
+.collection-item {
+	list-style-type: none;
+}
+.collection a.collection-item {
+  color: #757575;
+}
+.collection .collection-item.active {
+  background-color: #3949ab;
+  color: #e8eaf6;
+}
+
+
+/* change materialize icon to black */
+.logout-icon {
+	color: black;
+}
+.logout-icon:hover {
+	color: #e64a19;
+}
