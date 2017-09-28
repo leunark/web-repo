@@ -1,10 +1,10 @@
 To-do-list:
 - Navbar dropdown menu für kleinere Bilschirme
 
+- Proper Error, Success and Info visualisation with Tooltips
 - Memberpage, Homepage, Profilepage
 - Doppelkopfadler Background
-- Tooltips anzeigen via externe Funktion zum Anzeigen von Infos, Logs, Errors etc.
-- Eigenes Logo auch .gif
+- .favicon
 - Profilsicht, Profileditierung
 	- Mehr Infos (Name, Land, Email, Status, Beschreibung)
 	- Bilder hinzufügen

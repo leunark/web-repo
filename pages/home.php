@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<?php session_start(); ?>
 	<!--Imports-->
 	<?php include('import.php'); ?>
 	<!--Let browser know website is optimized for mobile-->
@@ -18,7 +19,6 @@
 		
 		<!--Container-->
 		<div class="container">
-			<?php session_start(); ?>
 			<?php if(isset($_SESSION['username'])) : ?>
 				<div>You are logged in!</div>
 			<?php else : ?>

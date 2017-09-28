@@ -20,7 +20,7 @@
           if(data.success){
             window.location.href = "home.php";
           }else{
-            //show error messageg
+            //show error message <------------>
             $('input[name=username]').addClass("invalid");
             $('input[name=password]').addClass("invalid");
           }

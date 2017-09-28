@@ -80,12 +80,13 @@ main {
 	cursor: pointer;
 	padding-left: 40px;
 }
-.profile-avatar:hover, .profile-title:hover, .profile-subtitle:hover { 
-    color: #3949ab;
-    background-color: #FFFFFF;
+.profile-avatar:hover, .profile-status:hover, .profile-title:hover, .profile-subtitle:hover { 
+	color: #3949ab;
+	background-color: #FFFFFF;
 }
 /* overwrite collections */
 .collection-item {
+	min-width: 100%;
 	list-style-type: none;
 }
 .collection a.collection-item {

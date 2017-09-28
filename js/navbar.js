@@ -22,5 +22,23 @@
       $('#dropdownProfile').hide();
     });
 
+    // logout on click: searching for class and not id cause 2 logouts, navbar and dropdown menu
+    $('.logout-icon').click(function(){
+      //async ajax request
+      $.ajax({ 
+      type: 'POST', 
+      url: '../php/logout.php',
+      dataType: 'json',
+      success: function (data) { 
+          console.log(data);
+          if(data.success){
+            window.location.href = "home.php";
+          }else{
+            //show error messageg <------------>
+          }
+        }
+      });
+    });
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
