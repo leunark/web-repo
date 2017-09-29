@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer indigo darken-1">
+<footer class="page-footer color-main-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col l6 s12">
@@ -9,10 +9,9 @@
 			<div class="col l3 s12">
 				<h5 class="white-text">Connect</h5>
 				<ul>
+					<li><a class="white-text" href="#!">Steam</a></li>
 					<li><a class="white-text" href="#!">Youtube</a></li>
-					<li><a class="white-text" href="#!">Facebook</a></li>
 					<li><a class="white-text" href="#!">Snapchat</a></li>
-					<li><a class="white-text" href="#!">Mobile</a></li>
 				</ul>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-<nav class="indigo darken-1">
+<nav class="color-main-bg">
 	<div class="container">
 		<div class="nav-wrapper">
 			<!--Logo-->
