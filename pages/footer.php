@@ -9,9 +9,8 @@
 			<div class="col l3 s12">
 				<h5 class="white-text">Connect</h5>
 				<ul>
-					<li><a class="white-text" href="#!">Steam</a></li>
-					<li><a class="white-text" href="#!">Youtube</a></li>
-					<li><a class="white-text" href="#!">Snapchat</a></li>
+					<li><a class="white-text" href="http://steamcommunity.com/id/doppelkopfadler"><img src="../img/steam_logo_small_white.png" style="height:30px;"></a></li>
+					<li><a class="white-text" href="https://www.youtube.com/channel/UCNy4ipegKdUK6Ck6rMyoj4A"><img src="../img/youtube_logo_small_white.png" style="height:23px;"></a></li>
 				</ul>
 			</div>
 		</div>

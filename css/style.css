@@ -13,6 +13,12 @@ main {
 	flex: 1 0 auto;
 }
 
+/* use center to center img */
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
 /* set own custom colors */
 .color-main-bg {
 	background-color: #232d37;

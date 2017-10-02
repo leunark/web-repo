@@ -28,12 +28,27 @@
 		<div class="parallax-container">
 	    <div class="parallax"><img src="../img/alb_eagle_wallpaper.png"></div>
 	  </div>
+
 	  <div class="section white">
 	    <div class="row container">
-	      <h2 class="header">Parallax</h2>
+	      <h2 class="header">Project Showcase</h2>
+	      <p class="grey-text text-darken-3 lighten-3">
+	      	All my projects will be presented on this website. They can be used for educational purposes.
+	      	Free source code is given via github!<br>
+	      	<a href="https://github.com/leunark/web-repo"><img src="../img/github_logo.png" style="width: 150px;height: auto;"></a>
+	      </p>
+	    </div>
+	  </div>
+	  <div class="parallax-container">
+	    <div class="parallax"><img src="../img/itproject_wallpaper.jpg"></div>
+	  </div>
+
+	  <div class="section white">
+	    <div class="row container">
+	      <h2 class="header">Game Development</h2>
 	      <p class="grey-text text-darken-3 lighten-3">
 	      	One feature will be the development of games especially with Unity 5. 
-	      	Unity is a cross-platform game engine developed by Unity Technologies,[5] which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
+	      	Unity is a cross-platform game engine developed by Unity Technologies, which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
 	      	It is an all purpose game engine that supports 2D and 3D graphics, drag and drop functionality and scripting through C#.
 	      </p>
 	    </div>
