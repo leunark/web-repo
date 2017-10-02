@@ -29,8 +29,7 @@
       type: 'POST', 
       url: '../php/logout.php',
       dataType: 'json',
-      success: function (data) { 
-          console.log(data);
+      success: function (data) {
           if(data.success){
             window.location.href = "home.php";
           }else{
@@ -38,6 +37,25 @@
           }
         }
       });
+    });
+
+    // reveive data from user and update username and status
+    $.ajax({
+      type: 'GET',
+      url: '../php/user.php',
+      dataType: 'json',
+      success: function(data) {
+        if(data.success){
+          $('#username').text(data.data.username);
+          if(!data.data.status){
+            $('#status').text('no status'); 
+          }else{
+            $('#status').text(data.data.status); 
+          }
+        }else{
+          //show error message
+        }
+      }
     });
 
   }); // end of document ready

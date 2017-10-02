@@ -31,21 +31,21 @@
 
 						<div class='row'>
 							<div class='input-field col s12'>
-								<input class='validate' type='text' name='username' id='username' />
+								<input class='validate' type='text' name='username' id='username' tabindex='1'/>
 								<label for='username'>Choose your username</label>
 							</div>
 						</div>
 
 						<div class='row'>
 							<div class='input-field col s12'>
-								<input class='validate' type='password' name='password' id='password' />
+								<input class='validate' type='password' name='password' id='password' tabindex='2'/>
 								<label for='password'>Choose your password</label>
 							</div>
 						</div>
 
 						<div class='row'>
 							<div class='input-field col s12'>
-								<input class='validate' type='password' name='passwordConfirmation' id='password' />
+								<input class='validate' type='password' name='passwordConfirmation' id='password' tabindex='3'/>
 								<label for='password'>Confirm your password</label>
 							</div>
 							<label style='float: right;'>

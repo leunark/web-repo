@@ -38,14 +38,14 @@
 
 						<div class='row'>
 							<div class='input-field col s12'>
-								<input class='validate' type='text' name='username' id='username' />
+								<input class='validate' type='text' name='username' id='username' tabindex='1'/>
 								<label for='username'>Enter your username</label>
 							</div>
 						</div>
 
 						<div class='row'>
 							<div class='input-field col s12'>
-								<input class='validate' type='password' name='password' id='password' />
+								<input class='validate' type='password' name='password' id='password' tabindex='2'/>
 								<label for='password'>Enter your password</label>
 							</div>
 							<label style='float: right;'>

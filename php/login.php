@@ -40,7 +40,7 @@ if(isset($_POST['login'])){
 	//Get actual readable time: date('m/d/Y H:i:s', $_SESSION['timestamp']);
 	
 	$response->JSONSuccess('You successfully logged into your account!');
-
+	
 } else {
 	$response->JSONError('Parameter login is not set!');
 }
