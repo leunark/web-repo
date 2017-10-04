@@ -33,7 +33,7 @@
           if(data.success){
             window.location.href = "home.php";
           }else{
-            //show error messageg <------------>
+            //show error message <------------>
           }
         }
       });
@@ -46,11 +46,11 @@
       dataType: 'json',
       success: function(data) {
         if(data.success){
-          $('#username').text(data.data.username);
+          $('.profile-username').text(data.data.username);
           if(!data.data.status){
-            $('#status').text('no status'); 
+            $('.profile-status').text('no status'); 
           }else{
-            $('#status').text(data.data.status); 
+            $('.profile-status').text(data.data.status); 
           }
         }else{
           //show error message

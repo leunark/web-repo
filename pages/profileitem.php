@@ -1,8 +1,8 @@
 <li class="collection-item avatar">
   <img src="../img/avatar.png" alt="" class="circle profile-avatar">
   <?php if(isset($_SESSION['username'])) : ?>
-	  <a href="profile.php" class="profile-title" id="username">Username</a> <p></p>
-	  <a href="profile.php" class="profile-status" id="status">Status</a> <p></p>
+	  <a href="profile.php" class="profile-username">Username</a> <p></p>
+	  <a href="profile.php" class="profile-status">Status</a> <p></p>
 	  <a href="profile.php" class="profile-subtitle">Profile</a> <p></p>
 	  <a href="friends.php" class="profile-subtitle">Friends</a> <p></p>
  		<a href="#!" class="secondary-content"><i class="material-icons logout-icon">exit_to_app</i></a>
