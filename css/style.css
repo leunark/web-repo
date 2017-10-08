@@ -44,6 +44,7 @@ img.center {
 /* combination of relative and absolute - the classic way "suckerfish dropdown" */
 .dropdown-suckerfish {
 	position: relative;
+	z-index: 100;
 }
 .dropdown-suckerfish>div {
   position: absolute;
@@ -75,23 +76,15 @@ img.center {
 	min-height: 80px;
 	cursor: pointer;
 }
+.profile-username, .profile-status, .profile-subtitle {
+	color: #757575;
+	cursor: pointer;
+	padding-left: 40px;
+}
 .profile-username {
-	color: #757575;
 	font-weight: 700;
-	cursor: pointer;
-	padding-left: 40px;
 }
-.profile-status {
-	color: #757575;
-	cursor: pointer;
-	padding-left: 40px;
-}
-.profile-subtitle {
-	color: #757575;
-	cursor: pointer;
-	padding-left: 40px;
-}
-.profile-avatar:hover, .profile-status:hover, .profile-title:hover, .profile-subtitle:hover { 
+.profile-avatar:hover, .profile-username:hover, .profile-status:hover, .profile-title:hover, .profile-subtitle:hover { 
 	color: #3949ab;
 	background-color: #FFFFFF;
 }

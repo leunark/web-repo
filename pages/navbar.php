@@ -10,7 +10,6 @@
 				<li><a href="home.php">Home</a></li>
 				<?php if(isset($_SESSION['username'])) : ?>
 					<li><a href="projects.php">Projects</a></li>
-					<li><a href="knowledge.php">Knowledge</a></li>
 				<?php endif ; ?>
 				<li><a href="contact.php">Contact</a></li>
 				<li><a class="dropdown-button" data-activates="dropdownProfile"><i class="material-icons">account_circle</i></a></li>

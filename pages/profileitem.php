@@ -7,7 +7,7 @@
 	  <a href="friends.php" class="profile-subtitle">Friends</a> <p></p>
  		<a href="#!" class="secondary-content"><i class="material-icons logout-icon">exit_to_app</i></a>
   <?php else : ?>
-  	<a href="login.php" class="profile-title">Not logged in!</a> <p></p>
+  	<a href="login.php" class="profile-username">Not logged in!</a> <p></p>
   	<a href="register.php" class="profile-subtitle">Create account</a> <p></p>
   	<a href="login.php" class="profile-subtitle">Login</a> <p></p>
   	<br>

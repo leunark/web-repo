@@ -48,7 +48,7 @@
         if(data.success){
           $('.profile-username').text(data.data.username);
           if(!data.data.status){
-            $('.profile-status').text('no status'); 
+            $('.profile-status').text('...'); 
           }else{
             $('.profile-status').text(data.data.status); 
           }

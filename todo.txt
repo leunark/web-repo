@@ -1,13 +1,16 @@
 To-do-list:
-- Navbar dropdown menu für kleinere Bilschirme
-
 - Proper Error, Success and Info visualisation with Tooltips
-- Memberpage, Homepage, Profilepage
-- Doppelkopfadler Background
 - .favicon
 - Profilsicht, Profileditierung
 	- Mehr Infos (Name, Land, Email, Status, Beschreibung)
 	- Bilder hinzufügen
+	- Möglichkeit zur eigenene Profilgrstaltung
+- Projects
+	- Projectoverview in Tiles
+	- Projectscreens (Projects: Git-Commands, AHK-Scripts) 
+- Contac
+	- Steam, Git, Youtube, etc.
+
 - Userverwaltung
 - Freundesystem
 - Chatsystem
